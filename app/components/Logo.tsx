@@ -1,9 +1,10 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Logo = () => {
   return (
-    <div className="flex items-center gap-2 font-medium border-b border-slate-300 py-3 mx-3">
+    <Link href='/' className="flex items-center gap-2 font-medium border-b border-slate-300 py-3 mx-3">
       <Image
         src="https://img.icons8.com/color/512/firebase.png"
         alt="logo"
@@ -11,7 +12,7 @@ const Logo = () => {
         height={45}
       />
       <span className="text-xl whitespace-pre mx-1">Firebase</span>
-    </div>
+    </Link>
   );
 };
 

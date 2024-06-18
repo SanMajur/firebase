@@ -1,6 +1,6 @@
 
 export default function Home() {
   return (
-   <main className="">Hello World</main>
+   <main className="">All Apps</main>
   );
 }
